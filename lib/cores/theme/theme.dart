@@ -29,7 +29,6 @@ class AppTheme {
       ),
 
       scaffoldBackgroundColor: AppColors.appBackground,
-
       appBarTheme: const AppBarTheme(
         backgroundColor: Colors.transparent,
         elevation: 0,
