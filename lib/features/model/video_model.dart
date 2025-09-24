@@ -6,6 +6,7 @@ class VideoModel {
   final String? description;
   final String? subtitle;
   final bool? isDownloaded;
+  final String url; // নতুন যোগ
   final int? downloadProgress;
 
   VideoModel({
@@ -16,6 +17,7 @@ class VideoModel {
     this.description,
     this.subtitle,
     this.isDownloaded,
+    required this.url,
     this.downloadProgress,
   });
 
@@ -27,6 +29,7 @@ class VideoModel {
     String? description,
     String? subtitle,
     bool? isDownloaded,
+    String? url,
     int? downloadProgress,
   }) {
     return VideoModel(
@@ -37,6 +40,7 @@ class VideoModel {
       description: description ?? this.description,
       subtitle: subtitle ?? this.subtitle,
       isDownloaded: isDownloaded ?? this.isDownloaded,
+      url: url ?? this.url, // copyWith এ যোগ
       downloadProgress: downloadProgress ?? this.downloadProgress,
     );
   }

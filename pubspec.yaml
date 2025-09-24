@@ -49,6 +49,7 @@ dev_dependencies:
   go_router: ^14.2.0
   video_player: ^2.9.1
   chewie: ^1.7.4
+  youtube_player_embed: ^1.6.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -35,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
     id: 'featured-1',
     title: 'The Dark Knight Returns',
     description: 'Batman faces his greatest challenge in this epic finale',
+    url: 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
     thumbnail: 'https://images.unsplash.com/photo-1679699316094-a74534381e22',
     duration: '2h 45m',
   );
@@ -44,24 +45,32 @@ class _HomeScreenState extends State<HomeScreen> {
       id: '1',
       title: 'Inception',
       duration: '2h 28m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1710988486821-9af47f60d62b',
     ),
     VideoModel(
       id: '2',
       title: 'Interstellar',
       duration: '2h 49m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1739891251370-05b62a54697b',
     ),
     VideoModel(
       id: '3',
       title: 'Dunkirk',
       duration: '1h 46m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1679699316094-a74534381e22',
     ),
     VideoModel(
       id: '4',
       title: 'Tenet',
       duration: '2h 30m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1710988486821-9af47f60d62b',
     ),
   ];
@@ -71,18 +80,24 @@ class _HomeScreenState extends State<HomeScreen> {
       id: '5',
       title: 'The Matrix',
       duration: '2h 16m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1739891251370-05b62a54697b',
     ),
     VideoModel(
       id: '6',
       title: 'Blade Runner',
       duration: '1h 57m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1679699316094-a74534381e22',
     ),
     VideoModel(
       id: '7',
       title: 'Ex Machina',
       duration: '1h 48m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1710988486821-9af47f60d62b',
     ),
   ];

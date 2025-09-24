@@ -24,6 +24,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
       id: '1',
       title: 'The Matrix',
       duration: '2h 16m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1739891251370-05b62a54697b',
       downloadProgress: 85,
     ),
@@ -31,6 +33,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
       id: '2',
       title: 'Blade Runner',
       duration: '1h 57m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1679699316094-a74534381e22',
       downloadProgress: 42,
     ),
@@ -38,6 +42,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
       id: '3',
       title: 'Ex Machina',
       duration: '1h 48m',
+      url:
+          'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
       thumbnail: 'https://images.unsplash.com/photo-1710988486821-9af47f60d62b',
       downloadProgress: 100,
     ),
